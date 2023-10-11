@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Pretzel Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #add8e6; /* Light Blue Background */
+            font-size: 18px;
+        }
+
+        header {
+            background-color: #ffffff; /* White Background */
+            color: #007acc; /* Darker Blue Text Color */
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+
+        .logo img {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #ffffff; /* White Background */
+            color: #007acc; /* Darker Blue Text Color */
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+
+        footer {
+            background-color: #007acc;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Pretzel Company Logo">
+            <h1>Soft Pretzel Company</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="C:\Users\adamb\OneDrive\Documents\Info Systems\Pretzel.jpg" alt="Delicious Pretzels">
+        <h2>Welcome to the Home of Irresistible Soft Pretzels</h2>
+        <a href="products.html" class="btn">Explore Our Pretzels</a>
+    </section>
+
+    <div class="boxes">
+        <div class="box">
+            <h2><a href="about.html">About Us</a></h2>
+            <p>Learn about our history and mission.</p>
+        </div>
+
+        <div class="box">
+            <h2><a href="products.html">Products</a></h2>
+            <p>Explore our delicious pretzel offerings.</p>
+        </div>
+
+        <div class="box">
+            <h2><a href="team.html">Team Page</a></h2>
+            <p>Meet our talented team members.</p>
+        </div>
+
+        <div class="box">
+            <h2><a href="customer.html">Customer Reviews</a></h2>
+            <p>Read what our customers say about us.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Soft Pretzel Company. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
