@@ -5,5 +5,5 @@ Please assign yourself to a page below
 Homepage
 Customer Reviews
 Product page - Christos K
-About Us page
+About Us page - Quinn
 Team Member Page
