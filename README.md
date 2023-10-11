@@ -4,6 +4,6 @@ Please check Project one requirements
 Please assign yourself to a page below
 Homepage
 Customer Reviews
-Product page
+Product page - Christos K
 About Us page
 Team Member Page
