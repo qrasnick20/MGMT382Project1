@@ -6,5 +6,5 @@ Please assign yourself to a page below
 Homepage - Adam Baarman
 Customer Reviews
 Product page - Christos K
-About Us page - Quinn
-Team Member Page
+About Us page 
+Team Member Page - Quinn 
