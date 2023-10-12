@@ -70,6 +70,24 @@
         }
     </script>
 
+    <div id="last-updated">
+        Last Updated: <span id="update-time"></span>
+    </div>
+
+    <script>
+        // JavaScript code to display the last updated time
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the current date and time
+            var currentDate = new Date();
+
+            // Format the date and time as desired
+            var formattedDate = currentDate.toLocaleString(); // Adjust the formatting as needed
+
+            // Display the formatted date and time in the "update-time" element
+            document.getElementById('update-time').textContent = formattedDate;
+        });
+    </script>
+
 </body>
 
 </html>
