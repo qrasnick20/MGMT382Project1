@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Soft Pretzel Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Use flexbox for layout */
+        }
+
+        .left-half {
+            flex: 1; /* Take up half of the available space */
+            background-color: #add8e6; /* Set the background color to blue */
+	display: flex;
+	align-items: center;
+	justify-content: center:
+        }
+
+        .right-half {
+            flex: 1; /* Take up half of the available space */
+            padding: 20px; /* Add some padding to separate the text from the blue background */
+        }
+
+        .team-member {
+            margin-bottom: 20px; /* Add some margin to separate team members */
+        }
+	.logo {
+            width: 100%; /* Set the width to 100% to cover the full width */
+            height: auto; /* Maintain the aspect ratio */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left-half">
+	<img src="Teamlogo.png" alt="Company Logo" class = "logo">
+	</div> <!-- This div creates the blue frame -->
+    <div class="right-half">
+        <h1>Our Team</h1>
+        <div class="team-member">
+            <h2>Adam Baarman</h2>
+            <p><em>Founder & Master Baker</em></p>
+        </div>
+        <div class="team-member">
+            <h2>Quinn Rasnick</h2>
+            <p><em>Head Chef</em></p>
+        </div>
+        <div class="team-member">
+            <h2>Ana Soto</h2>
+            <p><em>Marketing Manager</em></p>
+        </div>
+        <div class="team-member">
+            <h2>Aruneeth Sil</h2>
+            <p><em>Customer Service Specialist</em></p>
+        </div>
+        <div class="team-member">
+            <h2>Christos Kaiafas</h2>
+            <p><em>Quality Assurance</em></p>
+        </div>
+        <div class="team-member">
+            <h2>Grant Millman</h2>
+            <p><em>Official Taste Tester</em></p>
+        </div>
+
+	<p>Buy our products on Amazon: <a href="https://www.amazon.com/">https://www.amazon.com/</a></p>
+
+	</div>
+ <span id="last-updated"></span>
+    </div>
+
+    <script>
+        // JavaScript to update the last-updated element
+        const lastUpdatedElement = document.getElementById("last-updated");
+
+        // Create a new Date object to get the current date and time
+        const currentDate = new Date();
+
+        // Format the date as desired (e.g., "Last Updated: October 11, 2023")
+        const formattedDate = `Last Updated: ${currentDate.toDateString()}`;
+
+        // Update the content of the last-updated element
+        lastUpdatedElement.textContent = formattedDate;
+    </script>
+</body>
+
+</html>
