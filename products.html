@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
+    <style>
+        /* Style for the back button */
+        .back-button {
+            position: fixed;
+            top: 10px; /* Adjust the distance from the top as needed */
+            left: 10px; /* Adjust the distance from the left as needed */
+            z-index: 1000; /* Ensure it appears on top of other elements */
+            background-color: #333; /* Background color */
+            color: #fff; /* Text color */
+            padding: 10px 15px; /* Padding for the button */
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +26,7 @@
             font-family: Arial, sans-serif;
             font-size: 40pt;
             text-align: center;
-            background-image: url('C:\Users\adamb\OneDrive\Documents\Info Systems\Background Pretzels.jpg');
+            background-color: #add8e6;
             background-size: cover; /* Cover the entire page */
             background-position: center; /* Center the background image */
             padding: 20px; /* Add padding around the content */
@@ -28,23 +44,31 @@
 </head>
 
 <body>
+    <button class="back-button" onclick="goBack()">Back</button>
     <h1>Our Pretzels</h1>
     <ul>
         <li><strong>Classic Soft Pretzel</strong> - $2.99<br>Traditional soft pretzel sprinkled with salt.</li>
-        <img src="https://preppykitchen.com/wp-content/uploads/2021/02/Soft-Pretzel-Recipe-preppy-kitchen.jpg" alt="Classic Soft Pretzel">
+        <img src="https://preppykitchen.com/wp-content/uploads/2021/02/Soft-Pretzel-Recipe-preppy-kitchen.jpg" alt="Classic Soft Pretzel" style="width: 200px; height: 150px;">
         <li><strong>Cinnamon Sugar Pretzel</strong> - $3.49<br>Soft pretzel coated with cinnamon sugar.</li>
-        <img src="https://chefshamy-media.s3.us-west-2.amazonaws.com/wp-content/uploads/2018/01/17154504/cinnamon-sugar-pretzels-01.jpg" alt="Cinnamon Sugar Soft Pretzel">
+        <img src="https://chefshamy-media.s3.us-west-2.amazonaws.com/wp-content/uploads/2018/01/17154504/cinnamon-sugar-pretzels-01.jpg" alt="Cinnamon Sugar Soft Pretzel" style="width: 200px; height: 150px;">
         <li><strong>Jalapeno and Cheese Pretzel</strong> - $3.99<br>Soft pretzel with spicy jalapenos and melted cheese.</li>
-        <img src="https://littlespicejar.com/wp-content/uploads/2018/05/Cheddar-Jalapeno-Soft-Pretzels-7-710x1065.jpg" alt="Jalapeno and Cheese Pretzel">
+        <img src="https://littlespicejar.com/wp-content/uploads/2018/05/Cheddar-Jalapeno-Soft-Pretzels-7-710x1065.jpg" alt="Jalapeno and Cheese Pretzel" style="width: 200px; height: 150px;">
         <li><strong>Chocolate-Dipped Pretzel</strong> - $4.49<br>Soft pretzel dipped in chocolate.</li>
-        <img src="https://www.flavorsofmumbai.com/wp-content/uploads/2012/04/easy1-Dark-Chocolate-Dipped-Pretzels1-1280x720.jpg" alt="Chocolate-Dipped Pretzel">
+        <img src="https://www.flavorsofmumbai.com/wp-content/uploads/2012/04/easy1-Dark-Chocolate-Dipped-Pretzels1-1280x720.jpg" alt="Chocolate-Dipped Pretzel" style="width: 200px; height: 150px;">
         <li><strong>Garlic Parmesan Pretzel</strong> - $3.99<br>Soft pretzel topped with garlic and parmesan cheese.</li>
-        <img src="https://s3.us-east-2.amazonaws.com/pfimg1/008/cb/7b/cb7b27954c0965de98bbeb1a475e9da7_1280m.jpg" alt="Garlic Parmesan Pretzel">
+        <img src="https://s3.us-east-2.amazonaws.com/pfimg1/008/cb/7b/cb7b27954c0965de98bbeb1a475e9da7_1280m.jpg" alt="Garlic Parmesan Pretzel" style="width: 200px; height: 150px;">
         <li><strong>Gluten-Free Pretzel</strong> - $4.99<br>Gluten-free soft pretzel.</li>
-        <img src="https://glutenfreeonashoestring.com/wp-content/uploads/2014/03/Auntie-Annes-Pretzels.jpg" alt="Gluten-Free Pretzel">
+        <img src="https://glutenfreeonashoestring.com/wp-content/uploads/2014/03/Auntie-Annes-Pretzels.jpg" alt="Gluten-Free Pretzel" style="width: 200px; height: 150px;">
     </ul>
 
     <!-- Add more content as needed -->
+
+    <script>
+        // JavaScript function to go back in the browser's history
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 
 </body>
 
